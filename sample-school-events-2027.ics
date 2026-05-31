@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ecko//Sample School Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sample School Events 2027
+X-WR-TIMEZONE:Europe/London
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:STANDARD
+DTSTART:20271031T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20270328T010000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2027-spring-term-start@example.ecko
+DTSTAMP:20260531T120000Z
+SUMMARY:Spring Term Begins
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+LOCATION:Whole School
+DESCRIPTION:Pupils return to school for the start of the spring term. Gates open from 8:30am.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-year-6-residential@example.ecko
+DTSTAMP:20260531T120000Z
+SUMMARY:Year 6 Residential Trip
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270318
+LOCATION:Oakridge Outdoor Learning Centre
+DESCRIPTION:Year 6 pupils will spend three days taking part in outdoor learning activities. Full kit list and medical forms will be sent to families in advance.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-parent-consultation-evening@example.ecko
+DTSTAMP:20260531T120000Z
+SUMMARY:Parent Consultation Evening
+DTSTART;TZID=Europe/London:20270420T153000
+DTEND;TZID=Europe/London:20270420T190000
+LOCATION:School Hall and Classrooms
+DESCRIPTION:Appointments with class teachers to discuss pupil progress. Booking details will be shared through the school office.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-sports-day@example.ecko
+DTSTAMP:20260531T120000Z
+SUMMARY:Whole School Sports Day
+DTSTART;TZID=Europe/London:20270618T093000
+DTEND;TZID=Europe/London:20270618T143000
+LOCATION:School Field
+DESCRIPTION:Families are invited to join us for races\, team games and a picnic lunch. Please ensure pupils bring a water bottle\, sun hat and suitable PE kit.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-autumn-half-term@example.ecko
+DTSTAMP:20260531T120000Z
+SUMMARY:Autumn Half Term Holiday
+DTSTART;VALUE=DATE:20271025
+DTEND;VALUE=DATE:20271030
+LOCATION:School Closed
+DESCRIPTION:The school will be closed for the autumn half term break. Pupils return on Monday 1 November 2027.
+END:VEVENT
+END:VCALENDAR
